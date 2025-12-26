@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ORIBIS-CORE (MV-CORE)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ORIBIS-CORE</h1>
+    <div class="sub">MV-CORE · Codex Oribis v1.0 (Frozen)</div>
+  </header>
+
+  <main>
+    <aside class="panel">
+      <h2>Prime Orbs</h2>
+      <div id="palette" class="palette"></div>
+
+      <h2>Controls</h2>
+      <button id="autoRel">Auto-Relations</button>
+      <button id="clearAll">Clear</button>
+
+      <h2>Status</h2>
+      <div id="status" class="status">—</div>
+      <div id="errors" class="errors"></div>
+    </aside>
+
+    <section class="canvas-wrap">
+      <svg id="canvas" viewBox="0 0 1200 800"></svg>
+    </section>
+  </main>
+
+  <footer>
+    Validation only · No interpretation · No recommendations
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
