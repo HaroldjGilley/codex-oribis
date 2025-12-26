@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Codex Oribis v1.0 — Frozen Canon</title>
+  <meta name="description" content="Public declaration of Codex Oribis v1.0 as frozen canon: a non-verbal relational framework that validates structural coherence through orbs, relations, and motion." />
+  <style>
+    :root{
+      --bg:#0b0f16;
+      --fg:#e8eefc;
+      --muted:rgba(232,238,252,0.72);
+      --muted2:rgba(232,238,252,0.60);
+      --line:rgba(255,255,255,0.10);
+      --panel:rgba(255,255,255,0.035);
+      --panel2:rgba(0,0,0,0.20);
+      --accent:rgba(232,238,252,0.92);
+      --maxw:980px;
+      --radius:14px;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 800px at 50% 20%, rgba(255,255,255,0.06), rgba(255,255,255,0.00)) , var(--bg);
+      color:var(--fg);
+      font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+      line-height:1.55;
+    }
+    a{color:#cfe1ff; text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .wrap{max-width:var(--maxw); margin:0 auto; padding:56px 18px 44px;}
+    header{
+      display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between;
+      gap:18px; padding-bottom:18px; border-bottom:1px solid var(--line);
+    }
+    .title h1{
+      margin:0;
+      font-size:36px;
+      letter-spacing:0.2px;
+      font-weight:700;
+    }
+    .title .sub{
+      margin-top:8px;
+      color:var(--muted);
+      font-size:16px;
+      max-width: 58ch;
+    }
+    .tags{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;}
+    .tag{
+      border:1px solid var(--line);
+      background: var(--panel2);
+      border-radius:999px;
+      padding:6px 10px;
+      font-size:13px;
+      color:var(--muted);
+      letter-spacing:0.2px;
+    }
+    main{padding-top:18px;}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:14px;
+      margin-top:16px;
+    }
+    @media (min-width: 920px){
+      .grid{grid-template-columns: 1fr 1fr;}
+      .span2{grid-column: 1 / -1;}
+    }
+    .card{
+      border:1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius);
+      padding:16px 16px;
+    }
+    .card h2{
+      margin:0 0 10px 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      font-size:12px;
+      letter-spacing:1.1px;
+      text-transform:uppercase;
+      color:var(--accent);
+      opacity:0.92;
+    }
+    .card p{margin:0; color:var(--muted);}
+    ul{margin:0; padding-left:18px; color:var(--muted);}
+    li{margin:6px 0;}
+    .maxim{
+      margin-top:14px;
+      border:1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding:16px 16px;
+      background: linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.28));
+    }
+    .maxim .line{
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      font-weight:700;
+      letter-spacing:0.3px;
+      color:rgba(232,238,252,0.92);
+      margin:6px 0;
+    }
+    .divider{height:1px; background:var(--line); margin:18px 0;}
+    .small{
+      color:var(--muted2);
+      font-size:14px;
+      margin-top:18px;
+    }
+    footer{
+      margin-top:26px;
+      padding-top:14px;
+      border-top:1px solid var(--line);
+      color:var(--muted2);
+      font-size:13px;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      gap:10px;
+    }
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 0.95em;
+      color: rgba(232,238,252,0.92);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>Codex Oribis v1.0</h1>
+        <div class="sub">
+          Frozen Canon. A non-verbal relational framework for validating structural coherence through orbs, relations, and motion.
+        </div>
+      </div>
+      <div class="tags" aria-label="Release metadata">
+        <div class="tag">Version: 1.0</div>
+        <div class="tag">Status: Frozen</div>
+        <div class="tag">Authority: Canonical</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid">
+        <section class="card span2">
+          <h2>Statement</h2>
+          <p>
+            This page publicly declares <strong>Codex Oribis v1.0</strong> as a frozen canonical system. Oribis represents
+            meaning through circular primitives (orbs), their spatial relations, and motion states. Oribis does not interpret
+            intent, assign moral value, or decide outcomes. It validates structure only.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>What Oribis Is</h2>
+          <ul>
+            <li>A deterministic framework for testing whether a claim, rule, or system can remain coherent under fixed constraints</li>
+            <li>A visual encoding method based on relation, geometry, and motion rather than words</li>
+            <li>A stability validator that yields: <code>STABLE</code>, <code>TENSION</code>, or <code>COLLAPSE</code></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>What Oribis Is Not</h2>
+          <ul>
+            <li>A replacement for law, courts, governance, or sovereign authority</li>
+            <li>A decision-maker, judge, or enforcement mechanism</li>
+            <li>A predictive model of behavior or outcomes</li>
+            <li>A natural-language translator of authoritative meaning</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Frozen in v1.0</h2>
+          <ul>
+            <li>The Twelve Prime Orbs</li>
+            <li>Canonical invariants and axioms</li>
+            <li>Spatial syntax and motion grammar</li>
+            <li>Stability criteria and falsification rules</li>
+            <li>Error taxonomy (Type I–VII)</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Permitted in v1.x</h2>
+          <ul>
+            <li>Documentation clarity and formatting improvements</li>
+            <li>Examples and demonstration plates</li>
+            <li>Tooling implementations and visual modes</li>
+            <li>Domain applications that do not modify canon</li>
+          </ul>
+        </section>
+
+        <section class="card span2">
+          <h2>Version Policy</h2>
+          <p>
+            The v1.x series is clarification-only and may not change semantics or behavior.
+            Major versions (v2.0+) may extend Oribis only by additive composition that preserves all v1.0 invariants.
+          </p>
+        </section>
+
+        <section class="maxim span2" aria-label="Canonical maxim">
+          <div class="line">Stability constitutes truth.</div>
+          <div class="line">Stillness constitutes assertion.</div>
+          <div class="line">Silence constitutes validity.</div>
+        </section>
+
+        <section class="card span2">
+          <h2>Appropriate Uses</h2>
+          <ul>
+            <li>Structural review of governance models and policy logic</li>
+            <li>Pre-negotiation alignment and contradiction discovery</li>
+            <li>Visualization of constraint-consistency in complex systems</li>
+            <li>Audit-friendly configuration hashing for reproducible analysis</li>
+          </ul>
+        </section>
+
+        <section class="card span2">
+          <h2>Contact and Attribution</h2>
+          <p>
+            Canonical ownership and publication details may be appended for institutional contexts. Any implementation
+            claiming Oribis compliance should reference <strong>Codex Oribis v1.0</strong> and declare its constraint set as <code>DEFAULT_V1</code> or an explicitly layered extension.
+          </p>
+        </section>
+
+        <div class="small span2">
+          By design, Oribis makes no claim about what should be done. It answers a narrower question:
+          whether a proposed structure can exist without internal contradiction under stated constraints.
+        </div>
+      </div>
+
+      <footer>
+        <div>Codex Oribis v1.0 — Frozen Canon Declaration</div>
+        <div>Constraint Set: <code>DEFAULT_V1</code></div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
